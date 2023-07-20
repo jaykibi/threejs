@@ -30,7 +30,7 @@ const scene = new THREE.Scene();
 // kibi Model
 const loader = new GLTFLoader();
 loader.load(
-    "kibi.glb",
+    "paola.glb",
     function (gltf) {
         scene.add(gltf.scene);
     },
